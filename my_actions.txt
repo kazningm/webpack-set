@@ -1,0 +1,19 @@
+1) npm install для инициализации приложения
+2) npm install --save-dev webpack webpack-cli установка webpack webpack-cli
+3) npm install --save-dev cross-env пакет для определения среды разработки: разработка или продакшн
+4) npm install --save-dev clean-webpack-plugin пакет для отчистки директории dist от старых/неактуальных файлов
+5) npm install --save-dev html-webpack-plugin берет шаблон html и переносит его в итоговый бандл с нужными изменениями
+6) npm install --save-dev style-loader css-loader первый лоадер учит файлы работать с импортом css а второй приписывает link в хедаре html
+7) npm install -D babel-loader @babel/core @babel/preset-env установка babel и пресета
+8) npm install --save @babel/polyfill установка полифилов
+9) npm install webpack-dev-server --save-dev установка сервера для разработки 
+10) npm install --save normalize.css для добавления префиксов в стилях для всех браузеров
+11) npm install --save-dev mini-css-extract-plugin
+12) npm install terser-webpack-plugin --save-dev минифицирует все файлы
+13) npm i optimize-css-assets-webpack-plugin оптимизирует и минифицирует css
+14) npm install --save-dev @babel/preset-react установка пресета для реакта 
+15) npm install react react-dom redux react-redux react-router jest для работы с реактом
+16) npm install eslint-webpack-plugin --save-dev
+    npm install eslint --save-dev установка линтера
+    npm install -D babel-eslint
+17) npm install react-app-polyfill установка полифилов для поддержки ie11
